@@ -1,16 +1,16 @@
 nav {
-    background-color: darkblue;
+    background-color: #0000FF;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: #FFFFFF;
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: #0000FF;
 }
 
 main img {
