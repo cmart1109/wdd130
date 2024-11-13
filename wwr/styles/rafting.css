@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #054a91;
+    --secondary-color: #FE7F2D;
+    --accent1-color: #00BFB3;
+    --accent2-color: #89A1EF;
+    --def-margin: 1rem;
+    --def-padding: 1rem;
+    --border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: 'Rubik', 'Raleway';
+}
+
+.logo {
+    width: 256px;
+}
+
+.hero div {
+    width: 700px;
+    position: relative;
+}
+
+.hero .bg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 { 
+    position: absolute;
+    max-width: 100%;
+    font-size: 60px;
+    top: 400px;
+    right: 450px;
+    color: white;
+}
+
+.hero article {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    width: 900px;
+    top: 600px;
+    left: 200px;
+    position: absolute;
+    color: white;
+}
+
+.clients {
+
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+footer img {
+    width: 48px;
+    height: auto;
+    text-decoration: none;
+}
