@@ -14,7 +14,6 @@
     color: var(--white-font);
 }
 
-
 :root {
     --theme-color: #0000AF;
     --border: 1px solid rgba(0, 0, 0, 0.2);
@@ -23,18 +22,27 @@
 }
 
 nav {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
     background-color: var(--theme-color);
     padding: var(--default-padding);
+    align-items: center;
 }
 
 nav a {
-    color: var(--white-font);
     display: block;
-    padding: 10px;
+    color: var(--white-font);
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: var(--theme-color);
+    padding-bottom: 5px;
 }
 
 main img {
@@ -47,17 +55,26 @@ main img {
 }
 
 p {
-    padding: 0;
+    padding: 2rem;
+}
+
+main h1 {
+    border-bottom: 2px solid darkblue;
 }
 
 main {
     max-width: 840px;
+    grid-column: 2/3;
+    padding-top: 50px;
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-content: center;
     
 }
 
@@ -71,12 +88,16 @@ aside h2 {
     top: 30px;
     left: 110px;
 }
-footer {
-    margin-top: 10px;
-    border-top: var(--border);
-    text-align: center;
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 a {
     color: #FFFFFF;
 }
