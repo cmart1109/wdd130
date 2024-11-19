@@ -112,12 +112,13 @@ body {
 }
 
 
-.adventure figure {
+.adventure {
     display: grid;
     border: var(--border);
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     text-align: center;
+    height: 300px;
 }
 
 .adventure h2 {
@@ -126,8 +127,8 @@ body {
     grid-column: 1/6;
 }
 .adventure img {
-    width: 200px;
-    height: 150px;
+    width: 180px;
+    height: 120px;
     grid-row: 2;
 }
 
