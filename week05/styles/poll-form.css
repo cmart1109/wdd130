@@ -1,0 +1,61 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+header, footer {
+    text-align: center;
+    color: indigo;
+}
+
+main {
+    
+    border: 1px solid blue;
+    background-color: lavender;
+    color: indigo;
+    width: 600px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding: 20px;
+}
+
+.contact label {
+    text-align: right;
+}
+
+.contact input {
+    width: 300px;
+
+}
+
+#pet {
+    width: 30px;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 1fr 1fr;
+    text-align: right;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

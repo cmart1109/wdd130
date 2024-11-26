@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD-130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -11,13 +12,17 @@
     </header>
     <main>
         <form>
-            <fieldset>
+            <fieldset class="contact">
                 <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
                 <input type="email" id="useremail" name="useremail">
             </fieldset>
+
             <fieldset>
                 <legend>Questions</legend>
+            <div class="questions">
                 <label for="browser">What is your favorite internet browser?</label>
                 <select name="browser" id="browser">
                     <option value="chrome">Chrome</option>
@@ -26,13 +31,18 @@
                     <option value="opera">Opera</option>
                     <option value="Brave">Brave</option>
                 </select>
+
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="last">
                 <label for="feedback">List the places you haved lived</label>
                 <textarea rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali" name="feedback" id="feedback"></textarea>
                 <button type="submit">Submit Poll</button>
+            </div>
             </fieldset>
         </form>
+
     </main>
     <footer>
         <p>&copy;2025 | HTML Form - User Poll Activity | Christian Martinez</p>
