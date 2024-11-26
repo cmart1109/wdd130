@@ -57,5 +57,15 @@ main {
 .last {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+}
+.last textarea {
+    width: 100%;
+}
+button {
+    width: 100%;
+    margin: 10px;
+    background-color: indigo;
+    color: lavender;
+    font-weight: bold;
 }
