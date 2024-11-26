@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD-130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD-130 | Christian Martinez | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <input type="text" id="fullname" name="fullname">
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="opera">Opera</option>
+                    <option value="Brave">Brave</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you haved lived</label>
+                <textarea rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali" name="feedback" id="feedback"></textarea>
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 | HTML Form - User Poll Activity | Christian Martinez</p>
+    </footer>
+</body>
+</html>
