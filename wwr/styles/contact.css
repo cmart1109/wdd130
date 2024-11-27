@@ -134,7 +134,7 @@ figure {
 }
 .customers {
     background-color:var(--secondary-color);
-    width: 1250px;
+    width: 1180px;
     padding: 1rem;
     display: flex;
     flex-direction: row;
