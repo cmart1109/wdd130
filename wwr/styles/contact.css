@@ -35,8 +35,9 @@ nav a {
 
 
 body {
-    font-family: 'Rubik', 'Raleway';
+    font-family: 'Rubik', 'Raleway', sans-serif;
 }
+
 
 .logo {
     width: 200px;
