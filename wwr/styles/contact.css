@@ -127,6 +127,10 @@ iframe {
     height: 250px;
 }
 
+figure {
+    background-color: white;
+    border: var(--border);
+}
 .customers {
     background-color:var(--secondary-color);
     width: 1250px;
