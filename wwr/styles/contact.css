@@ -62,7 +62,7 @@ body {
 
 }
 
-aside {
+.company{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
@@ -77,11 +77,12 @@ aside {
     background-color: var(--accent2-color);
 }
 
-.form h3, legend {
+.form h3, legend, figcaption {
     text-align: center;
     font-weight: bold;
     font-size: larger;
 }
+
 
 .form1 {
     display: grid;
@@ -111,7 +112,7 @@ aside {
 }
 
 textarea {
-    height: 70px;
+    height: 150px;
 }
 
 button {
@@ -125,11 +126,15 @@ iframe {
     width: 300px;
     height: 250px;
 }
-aside img {
-    height: 100px;
+
+.customers {
+    background-color:var(--secondary-color);
+    width: 1250px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
-
 
 footer {
     display: flex;
