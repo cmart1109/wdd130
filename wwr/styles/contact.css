@@ -11,7 +11,6 @@
 /*Header Section */
 header {
     display: grid;
-    margin: 1rem auto;
     grid-template-columns: 300px 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;

@@ -11,7 +11,6 @@
 /*Header Section */
 header {
     display: grid;
-    margin: 1rem auto;
     grid-template-columns: 300px 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
@@ -95,6 +94,7 @@ aside {
 }
 
 form {
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,13 +104,12 @@ form {
 }
 
 form fieldset {
-    border: var(--border);
+    border: 2px solid white;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: var(--primary-color);
     text-align: right;
     align-items: center;
-    height: 100px;
+    height: 200px;
 }
 fieldset input {
     width: 300px;
@@ -120,6 +119,15 @@ fieldset legend {
   font-size: 1.5em;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    grid-column: 1/3;
+    background-color: var(--secondary-color);
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .friday {
