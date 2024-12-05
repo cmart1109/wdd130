@@ -125,9 +125,10 @@ button {
 iframe {
     width: 300px;
     height: 250px;
-    border: 2px solid #ffffff; /* Borde blanco para mejor contraste */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añadir sombra */
-    border-radius: 8px; /* Bordes redondeados opcionales */
+    border: 2px solid #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    color: black;
       
 }
 
