@@ -172,6 +172,20 @@ body {
     opacity: 0.9;
 }
 
+.friday a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color); 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 .title {
     display: flex;
     width: 100%;
